@@ -2,10 +2,11 @@
     Document   : aboutUsPage
     Created on : Feb 3, 2022, 4:08:14 PM
     Author     : 845593
+    version: 202206
+    
 --%>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page session="false" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
@@ -21,7 +22,7 @@
     <link rel="stylesheet" href="assets/css/info.css">
     <title>About Us | Alberta Bike Swap</title>
 </head>
-<body style="background: none">
+    <body style="background: none"  oncontextmenu="return false" onselectstart="return false" ondragstart="return false" oncopy="return false" ondrop="return false" onpaste="return false">
     <%@include file="header.jsp"%>
     <script>$('#about').addClass('active')</script>
 

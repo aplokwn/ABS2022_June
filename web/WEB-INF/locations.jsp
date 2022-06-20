@@ -1,9 +1,9 @@
 <%--
   Created by IntelliJ IDEA.
-  User: 806509
   Date: 5/20/2021
   Time: 8:58 PM
-  To change this template use File | Settings | File Templates.
+  version: 202206
+ 
 --%>
 
 
@@ -26,7 +26,6 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js" integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/" crossorigin="anonymous"></script>
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
         <link rel="stylesheet" type="text/css" href="./assets/css/locations.css">
@@ -35,10 +34,9 @@
 
 
 
-    <body>
+    <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" oncopy="return false" ondrop="return false" onpaste="return false">
 
         <%@include file="header.jsp"%>
-        
 
         <c:set var = "cityId" scope = "session" value = "${sessionScope.cityId}"/>
         <c:set var = "className" scope = "session" value = "${className}"/>

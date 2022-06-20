@@ -11,7 +11,8 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 /**
- * LocationController,a servlet which controls the page location response to the the landing page.
+ * LocationController,a servlet which controls the page location.jsp response from the landing page, 
+ * and page redirection from other pages in the same web.
  * Also contain the event information. 
  *
  * @author april wan
@@ -37,11 +38,14 @@ public class LocationController extends HttpServlet {
         HttpSession session = request.getSession();
         int cityId=0;
         
-        
+        //Location page control
+        //If the location change request is come from the location.jsp 
         if(request.getParameter("cityId")!=null)
         {
         cityId = Integer.parseInt(request.getParameter("cityId"));
         }
+        //If request comes from other pages, including redirection
+        //Retrive value from the session variable
         else if (request.getParameter("cityId")==null){
             if(session.getAttribute("cityId")!=null)
             {
@@ -49,7 +53,7 @@ public class LocationController extends HttpServlet {
             }
 
         }
-               
+        //update the session value       
         session.setAttribute("cityId", cityId);  
         
         //variables
@@ -95,6 +99,7 @@ public class LocationController extends HttpServlet {
 
           }
         
+        //update the session value     
         session.setAttribute("location", location);  
         session.setAttribute("when", when);  
         session.setAttribute("consign", consign);  

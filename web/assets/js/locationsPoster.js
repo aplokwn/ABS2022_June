@@ -1,6 +1,7 @@
 /**
- * Generates a poster in PDF format with the current event and a background picture set in the location page
- * @returns {Promise<void>} The poster
+ * Generates a poster in PDF format with the current event location and 
+ * a background picture set in the location page
+ * @returns  The poster
  */
 
 
@@ -32,10 +33,7 @@ function savePDF() {
     var donateTitle = "Donate: ";
     let donateInfo = document.getElementById("donate").innerHTML;
     
-    //alert(whereInfo);
-
-
-
+    //use onload method to get access to the image, or may get error like base64 or crosssite error
     img.onload = function() {
         pdf.setFont('Times', 'Roman');
         pdf.addImage(this, 'JPEG', 10, 10, 595.28, 592.28/2 );
@@ -57,11 +55,8 @@ function savePDF() {
 
         pdf.text(donateTitle, 85, 630);
         pdf.text(donateInfo, 150, 630);
-    
 
-
-
-        pdf.save('stone.pdf');
+        pdf.save('absEvent.pdf');
        
         
         };
@@ -75,12 +70,20 @@ function savePDF() {
     
     }
 
+
+
     function city(cityId, picture_url) {
         this.cityId = cityId;
         this.picture_url;
-        this.age = age;
-        this.eyeColor = eye;
       }
+  
+
+ /**
+ * checkCityID, a function which return the variable base on user location 
+ * to set the location city
+ * @returns  cityName
+ */  
+     
     
      function checkCityID(cityId){
         if(cityId==(1)){
@@ -98,6 +101,14 @@ function savePDF() {
          return cityName ;
          
       }
+      
+      
+ /**
+ * checkCityID, a function which return img url base on user location 
+ * to set the PDF header image
+ * @returns  picture_url path to the image
+ */   
+     
     
       function getImgPath(cityId){
         if(cityId==(1)){

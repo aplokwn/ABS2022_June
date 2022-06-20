@@ -1,11 +1,12 @@
 <%-- 
     Document   : BikeInfoPage
     Created on : Feb 3, 2022, 4:07:58 PM
-    Author     : 845593
+    @author april wan
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -28,7 +29,7 @@
 
     </head>
     <body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
 
         <%@include file="header.jsp"%>
         <div class="container-fluid mainBody">  

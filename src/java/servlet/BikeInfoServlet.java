@@ -19,9 +19,12 @@ import services.BikeLoader;
 import services.Partition;
 
 /**
+ * BikeInfoServlet,a servlet which controls BikeInfoPage.jsp content display, including
+ * filter control, Json loading, and inventory content
  *
- * @author aphks
+ * @author april wan
  */
+
 @WebServlet(name = "BikeInfoServlet", urlPatterns = {"/BikeInventory"})
 public class BikeInfoServlet extends HttpServlet {
 
@@ -133,7 +136,7 @@ public class BikeInfoServlet extends HttpServlet {
                 emptyjson = "true";
                 session.setAttribute("emptyjson", emptyjson);
                 session.setAttribute("bikemessage", "Not Bike instock. Please con back during the event.");
-                //request.getRequestDispatcher("WEB-INF/index.jsp").forward(request, response);
+                
             } 
             //If the json file is not empty
             else {
@@ -172,10 +175,13 @@ public class BikeInfoServlet extends HttpServlet {
                 }
 
                 final List<Bike> pageBreak = asList;
-                List<List<Bike>> pageArrange = (Partition.ofSize(pageBreak, 6));
-
-                double pageMath = Math.ceil(asList.size() / 6.0);
-                int pageTotal = ((int) pageMath)-1;
+                // 6 items per page, number of item can be changed
+                List<List<Bike>> pageArrange = (Partition.ofSize(pageBreak, 6)); 
+                
+                //make sure total pages that will wrap up all items while displaying 6 items, double must be ceil
+                //If the # in Partition.ofSize(pageBreak, #)) changed, the divisor also needed to be change
+                double pageMath = Math.ceil(asList.size() / 6.0);  
+                int pageTotal = ((int) pageMath)-1;// page start from 0
 
                 int currentPage = 0;
 
@@ -186,7 +192,6 @@ public class BikeInfoServlet extends HttpServlet {
                 session.setAttribute("emptyjson", emptyjson);
                 request.setAttribute("bikes", page);
                 request.setAttribute("currentPage", currentPage);
-                //request.getRequestDispatcher("WEB-INF/index.jsp").forward(request, response);
             }
         }
         request.getRequestDispatcher("WEB-INF/BikeInfoPage.jsp").forward(request, response);

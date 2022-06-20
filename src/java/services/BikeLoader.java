@@ -18,7 +18,7 @@ import model.Bike;
 /**
  * BikeLoader, a loader to load a JSON file into the web application then fetch
  * the content into list object with the Bike class that prepare the information
- * for the bike instock page. 
+ * for the bike livefeed page. 
  * Json API using a free online resource: https://api.npoint.io/d90c46449cc256cd2425  
  *
  * @author april wan

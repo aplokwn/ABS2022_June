@@ -96,7 +96,8 @@ For now, we will write it here while we find a more permanent solution.
 
         </style>
     </head>
-    <body>
+    
+    <body  oncontextmenu="return false" onselectstart="return false" ondragstart="return false" oncopy="return false" ondrop="return false" onpaste="return false">
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         
         <%@include file="header.jsp"%>
