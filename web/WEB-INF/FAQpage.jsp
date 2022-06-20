@@ -102,7 +102,7 @@ For now, we will write it here while we find a more permanent solution.
         <%@include file="header.jsp"%>
         <div id="contentWrapper" style="padding-top: 120px;">
 
-            <h4 id="announcementH1" style="background: url(../assets/img/header-bike-01.svg) no-repeat bottom center; background-size: 250px;">Have questions about the events?</h4>
+            <h4 id="announcementH1" style="background: url(assets/img/header-bike-01.svg) no-repeat bottom center; background-size: 250px;">Have questions about the events?</h4>
             <div id="faqWrapper">
                 <h4 id="faqTitle">Frequently Asked Questions</h4>
                 <input type="button" value="How do I buy a bike?" class="faqQuestion" onclick='toggleFAQCard("Card1")'>

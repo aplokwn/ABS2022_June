@@ -6,104 +6,112 @@
 
 function savePDF() {
 
-    var cityId = document.getElementById("cityId");
+    var cityId = document.getElementById("cityIdValue").innerHTML;
     let cityName;
     let picture_url;
-    var logo_url = "./img/admin/logo.jpg";
-    
-    console.log();
-    
-    picture_url = checkCityID(cityId, picture_url );
    
-   if(cityId.equals(1)){
-       cityName = "Calgary";
-       picture_url = "img/locations/city-01.jpg";
-   }
-   else if(cityId.equals(2)){
-        cityName = "Lethbridge";
-        picture_url = "img/locations/city-02.jpg";
-   }
-   else{
-        cityName = "Edmonton";
-        picture_url = "img/locations/city-03.jpg";
-   }
+    cityName = checkCityID(cityId);
+    picture_url = getImgPath(cityId);
+    cityName = checkCityID(cityId);
+
+    var pdf = new jsPDF('', 'pt', 'letter');
+    var img = new Image;
+
+    var docTitle = "ALBERTA BIKE SWAP";
+    var cityTitle = cityName + ", AB";
+
+    
+    var whereTitle = "Where: ";
+    let whereInfo = document.getElementById("eventlocation").innerHTML;
+    var whenTitle = "When: ";
+    let whenInfo = document.getElementById("date").innerHTML;
+    var consignTitle = "Consign: ";
+    let consignInfo = document.getElementById("consign").innerHTML;
+    var buyTitle = "Buy: ";
+    let buyInfo = document.getElementById("buy").innerHTML;
+    var donateTitle = "Donate: ";
+    let donateInfo = document.getElementById("donate").innerHTML;
+    
+    //alert(whereInfo);
+
+
+
+    img.onload = function() {
+        pdf.setFont('Times', 'Roman');
+        pdf.addImage(this, 'JPEG', 10, 10, 595.28, 592.28/2 );
+        pdf.setFontSize(40);
+        pdf.text(docTitle, 100, 350);
+        pdf.setFontSize(15);
+        pdf.text(whereTitle, 85, 400);// (horizontal, vertical from 0)
+        pdf.text(whereInfo, 150, 400);// (same line -> Where: address )
+        pdf.text(cityTitle, 155, 430);
+
+        pdf.text(whenTitle, 85, 480);
+        pdf.text(whenInfo, 150, 480);
+
+        pdf.text(consignTitle, 85, 530);
+        pdf.text(consignInfo, 150, 530);
+
+        pdf.text(buyTitle, 85, 580);
+        pdf.text(buyInfo, 150, 580);
+
+        pdf.text(donateTitle, 85, 630);
+        pdf.text(donateInfo, 150, 630);
+    
+
+
+
+        pdf.save('stone.pdf');
+       
+        
+        };
+        
+        
+        img.crossOrigin = "";  
+    
+        img.src = picture_url;
    
-   
-    var img = new Image();
-    img.src = path.resolve(picture_url);
 
     
+    }
 
-   
-
-    // PDF information
-    let docTitle = "ALBERTA BIKE SWAP";
-    let cityTitle = cityName + ", AB";
-    let whereTitle = "Where: ";
-    let whereInfo = event.address;
-    let whenTitle = "When: ";
-    let whenInfo = event.date;
-    let consignTitle = "Consign: ";
-    let consignInfo = event.consign;
-    let buyTitle = "Buy: ";
-    let buyInfo = event.buy;
-    let donateTitle = "Donate: ";
-    let donateInfo = event.donate;
-    // Creates and image object from the image URL
-    let imageBG = new Image();
-    imageBG.src = picture;
+    function city(cityId, picture_url) {
+        this.cityId = cityId;
+        this.picture_url;
+        this.age = age;
+        this.eyeColor = eye;
+      }
     
-    doc.addImage(img, 'JPEG', 1, 2);
-
-    /**
-     * After the image finishes loading, populate the PDF with event information and the background, and provides the
-     * PDF for download
-     */
+     function checkCityID(cityId){
+        if(cityId==(1)){
+            cityName = "Calgary";
+        }
+         else if(cityId==(2)){
+             cityName = "Lethbridge";
+         }
+         else if(cityId==(3)){
+             cityName = "Edmonton";
+         }
+         else{
     
-    var doc = new jsPDF();
+         }
+         return cityName ;
+         
+      }
     
-        doc.setFont('Times', 'Roman');
-        doc.setFontSize(40);
-        doc.addImage(imageBG, pictureType, 0, 0, 210, 297);
-        doc.text(docTitle, 38, 40);
-        doc.setFontSize(20);
-        doc.text(whereTitle, 50, 70);
-        doc.text(whereInfo, 85, 70);
-        doc.text(cityTitle, 85, 80);
-        doc.text(whenTitle, 50, 100);
-        doc.text(whenInfo, 85, 100);
-        doc.text(consignTitle, 50, 120);
-        doc.text(consignInfo, 85, 120);
-        doc.text(buyTitle, 50, 140);
-        doc.text(buyInfo, 85, 140);
-        doc.text(donateTitle, 50, 160);
-        doc.text(donateInfo, 85, 160);
-        doc.save("AlbertaBikeSwap.pdf");
-
-
-
+      function getImgPath(cityId){
+        if(cityId==(1)){
+            picture_url = "assets/img/locations/city-01.jpg";
+        }
+         else if(cityId==(2)){
+            picture_url = "assets/img/locations/city-02.jpg";
+         }
+         else if(cityId==(3)){
+            picture_url = "assets/img/locations/city-03.jpg";
+         }
+         else{
     
-    doc.text(20, 20, 'Hello world!');
-    doc.text(20, 30, 'This is client-side Javascript, pumping out a PDF.');
-    doc.addPage();
-    doc.text(20, 20, 'Do you like that?');
-
-    doc.save('Test.pdf');
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+         }
+         return picture_url ;
+         
+      }

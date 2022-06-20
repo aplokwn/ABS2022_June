@@ -90,7 +90,7 @@
                     <div class="col col-2 nav-header-item">
                         <a href="${path}/BikeInventory">
                             <div class="nav-item-inline">
-                                <img src="assets/img/header_footer/volunteer.svg" alt="volunteer" />
+                                <img src="assets/img/header_footer/bike.svg" alt="volunteer" />
                                 <label>BIKE LIVE FEED</label>
                                 <div class="nav-slider" id="BikeInfoPage"></div>
                             </div>

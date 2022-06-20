@@ -38,9 +38,16 @@ public class LocationController extends HttpServlet {
         int cityId=0;
         
         
-         if(request.getParameter("cityId")!=null)
+        if(request.getParameter("cityId")!=null)
         {
         cityId = Integer.parseInt(request.getParameter("cityId"));
+        }
+        else if (request.getParameter("cityId")==null){
+            if(session.getAttribute("cityId")!=null)
+            {
+            cityId = (int)session.getAttribute("cityId");
+            }
+
         }
                
         session.setAttribute("cityId", cityId);  
