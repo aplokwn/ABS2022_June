@@ -1,0 +1,82 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 5, 2022, 7:08:38 PM
+    Author     : aphks
+*/
+
+
+body{
+    margin:0;
+     background: url(../img/locations/city-01.jpg) center no-repeat fixed;
+    background-size: cover;
+    
+}
+.wrapper {
+  width: 90%;
+  border-radius: 20px;
+  background-color: white;
+  max-width: 1170px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+
+.box2 {
+  border-radius: 20px;
+  background-color: white;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  
+}
+
+fieldset {
+    border: 0;
+}
+
+input[type=text], [type=time], [type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+            .container {
+                display: grid;
+                grid-template-columns: auto auto;
+                padding: 10px;
+                border-radius: 10px;
+            }
+            .item {
+                background-color: #DCDCDC;
+                border: 1px solid #fff;
+                padding: 20px;
+                text-align: center;
+            }

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    
+    
+    
+    <servlet>
+        <servlet-name>WelcomeServlet</servlet-name>
+        <servlet-class>servlet.WelcomeServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>FaqServlet</servlet-name>
+        <servlet-class>servlet.FaqServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>SupporterServlet</servlet-name>
+        <servlet-class>servlet.SupporterServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>SafetyServlet</servlet-name>
+        <servlet-class>servlet.SafetyServlet</servlet-class>
+    </servlet> 
+    
+    <servlet>
+        <servlet-name>AboutUsServlet</servlet-name>
+        <servlet-class>servlet.AboutUsServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>VolunteerServlet</servlet-name>
+        <servlet-class>servlet.VolunteerServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>LocationController</servlet-name>
+        <servlet-class>servlet.LocationController</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>BikeInfoServlet</servlet-name>
+        <servlet-class>servlet.BikeInfoServlet</servlet-class>
+    </servlet>
+    
+    
+    <servlet-mapping>
+        <servlet-name>WelcomeServlet</servlet-name>
+        <url-pattern>/Welcome</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet-mapping>
+        <servlet-name>FaqServlet</servlet-name>
+        <url-pattern>/Faq</url-pattern>
+    </servlet-mapping>
+    	
+    <servlet-mapping>
+        <servlet-name>SupporterServlet</servlet-name>
+        <url-pattern>/Supporter</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>SafetyServlet</servlet-name>
+        <url-pattern>/Safety</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>AboutUsServlet</servlet-name>
+        <url-pattern>/AboutUs</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>VolunteerServlet</servlet-name>
+        <url-pattern>/Volunteer</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>LocationController</servlet-name>
+        <url-pattern>/locations</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>BikeInfoServlet</servlet-name>
+        <url-pattern>/BikeInventory</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>Welcome</welcome-file>
+    </welcome-file-list>
+    
+</web-app>
