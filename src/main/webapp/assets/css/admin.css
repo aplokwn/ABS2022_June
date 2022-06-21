@@ -1,0 +1,10 @@
+html, body {
+     margin:0;
+     background: url(../img/locations/city-01.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+
+.container-position{
+    margin-top: 50px;
+    
+}

@@ -1,0 +1,113 @@
+
+   [
+      {
+         "bikeId":"001",
+         "photoPath": "\\assets\\img\\bikes\\bike001.jpg",
+         "maker":"Argon18",
+         "model":"Gallium Pro Disc",
+         "size":"L",
+         "price":"500"
+      },
+      {
+         "bikeId":"002",
+         "photoPath":"\\assets\\img\\bikes\\bike002.jpg",
+         "maker":"Aquila Cyclest",
+         "model":"Neo 2",
+         "size":"M",
+         "price":"600 "
+      },
+      {
+         "bikeId":"003",
+         "photoPath":"\\assets\\img\\bikes\\bike003.jpg",
+         "maker":"Aquila Cyclest",
+         "model":"Neo 2",
+         "size":"M",
+         "price":"100 "
+      },
+      {
+         "bikeId":"004",
+         "photoPath":"\\assets\\img\\bikes\\bike004.jpg",
+         "maker":"Banshee",
+         "model":"Rune",
+         "size":"M",
+         "price":"200 "
+      },
+      {
+         "bikeId":"005",
+         "photoPath":"..\\assets\\img\\bikes\\bike005.jpg",
+         "maker":"Argon18",
+         "model":"Gallium Pro Disc",
+         "size":"L",
+         "price":"500"
+      },
+      {
+         "bikeId":"006",
+         "photoPath":"\\assets\\img\\bikes\\bike006.jpg",
+         "maker":"Aquila Cyclest",
+         "model":"Neo 2",
+         "size":"M",
+         "price":"600 "
+      },
+      {
+         "bikeId":"007",
+         "photoPath":"\\assets\\img\\bikes\\bike007.jpg",
+         "maker":"Aquila Cyclest",
+         "model":"Neo 2",
+         "size":"M",
+         "price":"100 "
+      },
+      {
+         "bikeId":"008",
+         "photoPath":"\\assets\\img\\bikes\\bike008.jpg",
+         "maker":"Banshee",
+         "model":"Rune",
+         "size":"M",
+         "price":"200 "
+      },
+      {
+         "bikeId":"009",
+         "photoPath":"\\assets\\img\\bikes\\bike009.jpg",
+         "maker":"Argon18",
+         "model":"Gallium Pro Disc",
+         "size":"L",
+         "price":"500"
+      },
+      {
+         "bikeId":"010",
+         "photoPath":"\\assets\\img\\bikes\\bike010.jpg",
+         "maker":"Aquila Cyclest",
+         "model":"Neo 2",
+         "size":"M",
+         "price":"600 "
+      },
+      {
+         "bikeId":"011",
+         "photoPath":"\\assets\\img\\bikes\\bike011.jpg",
+         "maker":"Aquila Cyclest",
+         "model":"Neo 2",
+         "size":"M",
+         "price":"100 "
+      },
+      {
+         "bikeId":"012",
+         "photoPath":"\\assets\\img\\bikes\\bike012.jpg",
+         "maker":"Banshee",
+         "model":"Rune",
+         "size":"M",
+         "price":"200 "
+      },
+
+      {
+         "bikeId":"013",
+         "photoPath":"\\assets\\img\\bikes\\bike001.jpg",
+         "maker":"Banshee",
+         "model":"Rune",
+         "size":"M",
+         "price":"200 "
+      }
+
+   ]
+  
+
+
+
