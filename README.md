@@ -16,7 +16,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo-01.svg" alt="Logo" width="200" height=auto>
+    <img src="https://raw.githubusercontent.com/aplokwn/ABS2022_June/d4c67361f55bb45681a1b21b1a7a7484ad84be26/readmeImage/logo-01.svg" alt="Logo" width="200" height=auto>
   </a>
 
 <h3 align="center">project_title</h3>
@@ -64,7 +64,10 @@
  [![Screen Shot-Bike Livefeed]](https://raw.githubusercontent.com/aplokwn/ABS2022_June/master/readmeImage/ABS_pic02.png)
  [![Screen Shot-Bike Location Page]](https://raw.githubusercontent.com/aplokwn/ABS2022_June/master/readmeImage/ABS_pic03.png)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+
+This is a Java with mavel web application which act as a infornation display for the Alberta Bike Swap Event, and also act as a bike inventory display platform during the event. 
+
+Bike Live Feed Page (bike inventory) is designd to access bike inventory through JSON API. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -77,7 +80,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * [Bootstrap](https://getbootstrap.com)
   
 
-### Support Library
+### Library Support
 * [JSTL](https://docs.oracle.com/javaee/5/jstl/1.1/docs/tlddocs/overview-summary.html)
 * [Gson](https://github.com/google/gson/blob/master/UserGuide.md)
 * [jsPDF](https://github.com/parallax/jsPDF)
@@ -91,32 +94,24 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+1. The default server of this application Tomcat. POM need to be update if using server other than Tomcat.
+
+2. Project JDK version: 1.7
+
+3. Maven version: 3.1
+   
+4. Best competibilty IDE: NetBean 12. Using IntelliJ may require to update project's Maven to 3.3 or higher, and update project's JDK to 1.8.
+
+
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1. Simply download the web application on Github > Code > Dowload ZIP.
+2. Import the project to your perfered IDE.
+     
+   
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

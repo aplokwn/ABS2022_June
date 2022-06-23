@@ -19,7 +19,7 @@ import model.Bike;
  * BikeLoader, a loader to load a JSON file into the web application then fetch
  * the content into list object with the Bike class that prepare the information
  * for the bike livefeed page. 
- * Json API using a free online resource: https://api.npoint.io/d90c46449cc256cd2425  
+ * Json API using a free online resource: https://api.npoint.io/fd08845d01c4506fe3fb  
  *
  * @author april wan
  */
@@ -42,7 +42,7 @@ public class BikeLoader {
             URL url = null;
             try {
                 // Definition of the URL with the JSON-Strings
-                url = new URL("https://api.npoint.io/d90c46449cc256cd2425");
+                url = new URL("https://api.npoint.io/fd08845d01c4506fe3fb");
             } 
             catch (MalformedURLException e) {
                 e.printStackTrace();

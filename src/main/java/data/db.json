@@ -1,7 +1,7 @@
  [
       {
          "bikeId":"001",
-         "photoPath": "\\assets\\img\\bikes\\bike001.jpg",
+         "photoPath": "assets\\img\\bikes\\bike001.jpg",
          "maker":"Argon18",
          "model":"Gallium Pro Disc",
          "size":"L",
@@ -9,7 +9,7 @@
       },
       {
          "bikeId":"002",
-         "photoPath":"\\assets\\img\\bikes\\bike002.jpg",
+         "photoPath":"assets\\img\\bikes\\bike002.jpg",
          "maker":"Aquila Cyclest",
          "model":"Neo 2",
          "size":"M",
@@ -17,7 +17,7 @@
       },
       {
          "bikeId":"003",
-         "photoPath":"\\assets\\img\\bikes\\bike003.jpg",
+         "photoPath":"assets\\img\\bikes\\bike003.jpg",
          "maker":"Aquila Cyclest",
          "model":"Neo 2",
          "size":"M",
@@ -25,7 +25,7 @@
       },
       {
          "bikeId":"004",
-         "photoPath":"\\assets\\img\\bikes\\bike004.jpg",
+         "photoPath":"assets\\img\\bikes\\bike004.jpg",
          "maker":"Banshee",
          "model":"Rune",
          "size":"M",
@@ -33,7 +33,7 @@
       },
       {
          "bikeId":"005",
-         "photoPath":"..\\assets\\img\\bikes\\bike005.jpg",
+         "photoPath":"assets\\img\\bikes\\bike005.jpg",
          "maker":"Argon18",
          "model":"Gallium Pro Disc",
          "size":"L",
@@ -41,7 +41,7 @@
       },
       {
          "bikeId":"006",
-         "photoPath":"\\assets\\img\\bikes\\bike006.jpg",
+         "photoPath":"assets\\img\\bikes\\bike006.jpg",
          "maker":"Aquila Cyclest",
          "model":"Neo 2",
          "size":"M",
@@ -49,7 +49,7 @@
       },
       {
          "bikeId":"007",
-         "photoPath":"\\assets\\img\\bikes\\bike007.jpg",
+         "photoPath":"assets\\img\\bikes\\bike007.jpg",
          "maker":"Aquila Cyclest",
          "model":"Neo 2",
          "size":"M",
@@ -57,7 +57,7 @@
       },
       {
          "bikeId":"008",
-         "photoPath":"\\assets\\img\\bikes\\bike008.jpg",
+         "photoPath":"assets\\img\\bikes\\bike008.jpg",
          "maker":"Banshee",
          "model":"Rune",
          "size":"M",
@@ -65,7 +65,7 @@
       },
       {
          "bikeId":"009",
-         "photoPath":"\\assets\\img\\bikes\\bike009.jpg",
+         "photoPath":"assets\\img\\bikes\\bike009.jpg",
          "maker":"Argon18",
          "model":"Gallium Pro Disc",
          "size":"L",
@@ -73,7 +73,7 @@
       },
       {
          "bikeId":"010",
-         "photoPath":"\\assets\\img\\bikes\\bike010.jpg",
+         "photoPath":"assets\\img\\bikes\\bike010.jpg",
          "maker":"Aquila Cyclest",
          "model":"Neo 2",
          "size":"M",
@@ -81,7 +81,7 @@
       },
       {
          "bikeId":"011",
-         "photoPath":"\\assets\\img\\bikes\\bike011.jpg",
+         "photoPath":"assets\\img\\bikes\\bike011.jpg",
          "maker":"Aquila Cyclest",
          "model":"Neo 2",
          "size":"M",
@@ -89,7 +89,7 @@
       },
       {
          "bikeId":"012",
-         "photoPath":"\\assets\\img\\bikes\\bike012.jpg",
+         "photoPath":"assets\\img\\bikes\\bike012.jpg",
          "maker":"Banshee",
          "model":"Rune",
          "size":"M",
@@ -98,7 +98,7 @@
 
       {
          "bikeId":"013",
-         "photoPath":"\\assets\\img\\bikes\\bike001.jpg",
+         "photoPath":"assets\\img\\bikes\\bike001.jpg",
          "maker":"Banshee",
          "model":"Rune",
          "size":"M",
