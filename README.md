@@ -19,10 +19,9 @@
     <img src="https://raw.githubusercontent.com/aplokwn/ABS2022_June/d4c67361f55bb45681a1b21b1a7a7484ad84be26/readmeImage/logo-01.svg" alt="Logo" width="200" height=auto>
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Alberta Bike Swap</h3>
 
   <p align="center">
-    project_description
     <br />
     <a href="https://github.com/aplokwn/ABS2022_June"><strong>Explore the docs »</strong></a>
     <br />
