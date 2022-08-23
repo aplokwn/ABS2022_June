@@ -60,31 +60,31 @@ public class WelcomeServlet extends HttpServlet {
         
         //If the city is Calgary (1)
         if(cityId == 1){
-            location = "Sunridge Mall (NE Corner between AHS and HBC) at 2525 36 St NE";
-            when = "May 7 & May 8, 2022";
-            consign = "May 7 0800-1600";
-            buy = "May 8 0900-1400";
-            donate = "May 7 0800-1600";
+            location = "TBD";
+            when = "A monthly bike meeting - TBD";
+            consign = "We'll talk bikes";
+            buy = "We'll talk about bike safety";
+            donate = "We can share bike info";
             className = "YYC";
             
         }
         //If the city is Lethbridge (2)
         else if(cityId == 2){
-            location = "Lethbridge Exhibition Park North Pavilion 3401 Parkside Drive South";
-            when = "April 30, 2022";
-            consign = "0900-1400";
-            buy = "1430-1600";
-            donate = "0900-1600";
+            location = "TBD";
+            when = "Pondering if we'll return to Lethbridge";
+            consign = "Unknown";
+            buy = "?";
+            donate = "?";
             className = "YQL";
             
         }
         //If the city is Edmonton (3)
         else {
-            location = "MacEwan University - City Centre 107 Street Underground Parkade";
-            when = "May 14, 2022";
-            consign = "May 14, 2022 0800-1400";
-            buy = "May 14, 2022 1430-1600";
-            donate = "May 14, 2022";
+            location = "TBD";
+            when = "A monthly bike meeting - TBD";
+            consign = "We can talk about bikes";
+            buy = "We can talk about bikes";
+            donate = "We can talk about bike safety";
             className ="YEG";
 
           };
