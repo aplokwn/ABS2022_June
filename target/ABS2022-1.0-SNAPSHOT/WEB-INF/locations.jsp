@@ -51,8 +51,8 @@
                     <div id="cityIdValue" style="display: none;">${cityId}</div>
                     <form action="${path}/locations" name="city" method="POST">
 
-                        <select class="selectpicker city-option" aria-label=".form-select-lg example" id="cityId" name ="cityId" onchange="city.submit()">
-                            <option >Choose your location</option>
+                        <select class="selectpicker city-option" aria-label=".form-select-lg example" id="cityId" name ="cityId" onchange="city.submit()" >
+                            <option value="9" selected >Choose your location</option>
                             <option value="1" 
                                     <c:if test = "${cityId==1}">
                                         <c:out value = "selected"/></c:if>>Calgary</option>

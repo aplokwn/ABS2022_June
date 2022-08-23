@@ -10,6 +10,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <title>Alberta Bike Swap | Volunteer Register Page</title>
         <link rel="stylesheet" href="./assets/css/VolunteerGoogleStyle.css">
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -20,25 +23,21 @@
             function toggleForm(form) {
                 hideForm();
                 document.getElementById(form).style.display = 'block';
-            }    
+            }
             function hideForm(){
                 document.getElementById("volunteerCalgary").style.display = 'none';
                 document.getElementById("volunteerEdmonton").style.display = 'none';
                 document.getElementById("volunteerLethbridge").style.display = 'none';
             }
         </script>
-        <style>
-            #title{
-    background: url(../assets/img/header-bike-01.svg) no-repeat bottom center;
-    background-size: 200px;
-}
-        </style>
+
     </head>
     <body>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-         <%@include file="header.jsp"%>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <%@include file="header.jsp"%>
          
            <div class="first_container container">
             <h4 id="title">Volunteer. Make a difference.</h4>

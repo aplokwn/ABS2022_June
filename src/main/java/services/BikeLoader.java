@@ -42,8 +42,13 @@ public class BikeLoader {
             URL url = null;
             try {
                 // Definition of the URL with the JSON-Strings
-                url = new URL("https://api.npoint.io/fd08845d01c4506fe3fb");
-            } 
+                //Sample bike dummy json
+                //url = new URL("https://api.npoint.io/fd08845d01c4506fe3fb");
+
+                //Sample empty bike json
+                url = new URL("https://api.npoint.io/c18792581c5df1f1d908");
+
+            }
             catch (MalformedURLException e) {
                 e.printStackTrace();
             }

@@ -53,8 +53,7 @@ public class LocationController extends HttpServlet {
             }
 
         }
-        //update the session value       
-        session.setAttribute("cityId", cityId);  
+
         
         //variables
          String location = "";
@@ -68,7 +67,12 @@ public class LocationController extends HttpServlet {
         
         //send location information to the location page. 
         //Hard code the event information here, also hard code in the location servlet as well
-        
+
+        if(cityId == 9){
+            cityId = (int)session.getAttribute("cityId");
+        }
+
+
         //If the city is Calgary (1)
        if(cityId == 1){
             location = "TBD";
@@ -99,8 +103,10 @@ public class LocationController extends HttpServlet {
             className ="YEG";
 
           
-          };
-        
+          }
+        //update the session value
+        session.setAttribute("cityId", cityId);
+
         //update the session value     
         session.setAttribute("location", location);  
         session.setAttribute("when", when);  

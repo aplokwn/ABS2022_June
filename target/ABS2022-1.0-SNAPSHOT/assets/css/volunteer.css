@@ -1,4 +1,4 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css");
+
 @import url("https://use.fontawesome.com/releases/v5.0.13/css/all.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -24,7 +24,7 @@
     font-weight: 200;
     text-align: center;
     padding-bottom: 30px;
-    background: url(../assets/img/header-bike-01.svg) no-repeat bottom center;
+    background: url(../img/header_footer/header-bike-01.svg) no-repeat bottom center;
     background-size: 200px;
     z-index: 2;
     margin: 20px 0 30px 0;
