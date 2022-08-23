@@ -62,6 +62,11 @@ form {
     padding-top: 150px;
 }
 
+select {
+
+    background-color: transparent;
+}
+
 @media screen and (max-width: 993px) {
     .city {
         padding-top: 100px;
@@ -87,7 +92,7 @@ form {
     text-align: left;
     border-bottom: 1px solid #9e9e9e;
     position: relative;
-    color: white;
+    color: transparent;
 }
 
 .city-row {
@@ -103,6 +108,7 @@ form {
     height: auto;
     text-align: left;
     background: white;
+
 }
 
 .city-info {
@@ -112,11 +118,11 @@ form {
 
 .city-option:hover, .city-selected {
     color: #26a69a;
-    background: #eaeaea;
+    background: transparent;
 }
 
 .city-disabled:hover {
-    background: white;
+    background: transparent;
 }
 
 .header {
@@ -216,3 +222,4 @@ form {
                 box-shadow: 0 1px 3px rgba(0,0,0,0.33);
                 cursor: pointer;
 }
+
