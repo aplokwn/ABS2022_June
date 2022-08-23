@@ -1,0 +1,169 @@
+
+
+.nav-adm {
+  background-color: #38cebf;
+  background-image: url(../img/admin/nav-back.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+}
+.nav-adm div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-adm img {
+  height: 50px !important;
+}
+.nav-adm .options-nav ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #ffffff;
+}
+.nav-adm ul a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.nav-adm .options-nav li {
+  margin: 0 20px;
+}
+.nav-adm .options-nav li:last-child {
+  margin-right: 100px;
+}
+
+a[href="bikemaster?action=logout"] {
+  color: red;
+  text-decoration: none;
+}
+/*Font configuration*/
+.header-example {
+  background-color: rgba(0, 255, 255, 0.3);
+  width: 100%;
+  padding: 5px;
+  align-items: flex-start;
+}
+
+.header-example img {
+  max-height: 50px;
+  max-width: 300px;
+  filter: invert(1);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body {
+  font-family:  sans-serif;
+}
+
+/*Total height of the container*/
+.container {
+  height: 100%;
+}
+
+/*Total height of the page*/
+.row {
+  height: 100%;
+}
+
+/*Styling of the card*/
+.card {
+  background-color: #fff !important;
+  padding: 20px !important;
+  padding-bottom: 100px !important;
+  background-image: url(https://albertabikeswap.ca/wp-content/themes/starkers-html5-master/images/nav-city.svg);
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: bottom right;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%),
+  0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+
+/*Styling of the card*/
+.card h1 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/*Styling of the edges of the form*/
+.card input {
+  border: none;
+  border-bottom: 2px solid #9e9e9e;
+  border-radius: 0;
+  transition: 0.5s;
+}
+
+/*Green line behinf the input*/
+.card input:focus,
+.card input:focus + .input-group-text {
+  border-bottom: 2px solid #26a69a;
+}
+
+/*take off the blue shade from the inputs*/
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.input-group {
+  margin-bottom: 34px !important;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/*take off the grey background from the labels*/
+.input-group-text {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #9e9e9e;
+  border-radius: 0;
+  transition: 0.5s;
+}
+
+/*Hide the error message*/
+.hidden {
+  display: none;
+}
+
+/*Re-write the bootstrap button*/
+.btn {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  border-radius: 0.2em;
+  transition: 0.3s;
+  height: 36px;
+  padding: 0 16px;
+  color: #fff;
+  margin: 5px;
+  font-size: 14px;
+}
+
+/*Button styling*/
+a.btn {
+  text-decoration: none;
+  line-height: 36px;
+}
+
+/*take of the underline from the button when hover*/
+a.btn:hover {
+  color: #fff;
+}
+
+/*rewrite the green from the button*/
+.btn-success {
+  background: #26a69a !important;
+}
+
+/**********************************/
+.admin-page {
+  min-height: 100vh;
+}

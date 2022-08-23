@@ -1,0 +1,67 @@
+.container {
+    padding-top: 150px;
+}
+
+.title {
+    color:#1570B0;
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 30px;
+    background: url(../img/header-bike-01.svg) no-repeat bottom center;
+    background-size: 200px;
+}
+/* margin between the alliances groups */
+.inline-row {
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+/* div for one alliance */
+.supporters-box {
+    margin-bottom: 2%;
+}
+/* alliance represent image */
+.supporters-img {
+    height: 150px;
+    width: 75%;
+    display: block;
+    margin: 5% auto 10%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* button animation image */
+.arrow {
+    height:auto;
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    background:red;
+    background-repeat: no-repeat;
+    background-image: url("../img/main/arrow right.svg");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: -50px;
+    -webkit-transition: 300ms;
+    transition: 300ms;
+}
+/* button animation effect */
+.arrow:hover{
+    background-color:red;
+    color: white;
+    transform: scale(1.1);
+    background-position: center;
+    transition: 300ms;
+    border: 1px;
+    border-radius: 50%;
+}
+/* button mouse hover effect - default image disappear */
+.arrow:hover img{
+    display:none;
+}
+/* image div & button overlapped */
+.card .btn {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 55%);
+}

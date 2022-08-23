@@ -15,7 +15,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/aplokwn/ABS2022_June">
     <img src="https://raw.githubusercontent.com/aplokwn/ABS2022_June/d4c67361f55bb45681a1b21b1a7a7484ad84be26/readmeImage/logo-01.svg" alt="Logo" width="200" height=auto>
   </a>
 
