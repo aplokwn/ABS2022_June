@@ -74,7 +74,6 @@
 
                 </c:if>
 
-
             </div>
             <!-- End of filter section -->
 
