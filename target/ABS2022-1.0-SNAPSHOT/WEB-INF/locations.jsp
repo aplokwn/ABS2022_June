@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   Date: 5/20/2021
   Time: 8:58 PM
-  version: 202206
+  version: 202208
  
 --%>
 
@@ -27,7 +27,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js" integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-        <link rel="stylesheet" type="text/css" href="./assets/css/locations.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/locations.css">
 
     </head>
 

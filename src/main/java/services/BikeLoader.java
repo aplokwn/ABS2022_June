@@ -122,8 +122,8 @@ public class BikeLoader {
      * Filter price and return a filtered Array List.
      *
      * @param asList Bike Array List
-     * @param minPric min price enter by user
-     * @param maPrice max price inter by user
+     * @param minPrice min price enter by user
+     * @param maxPrice max price inter by user
      * @return filtered Bike Array List
      */
     public static List<Bike> filterPrice(List<Bike> asList, double minPrice, double maxPrice) {
