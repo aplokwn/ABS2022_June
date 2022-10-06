@@ -47,6 +47,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#built-with">Dependencies</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -102,6 +103,31 @@ Bike Live Feed Page (bike inventory) is designd to access bike inventory through
 3. Maven version: 3.1
    
 4. Best competibilty IDE: NetBean 12. Using IntelliJ may require to update project's Maven to 3.3 or higher, and update project's JDK to 1.8.
+
+
+
+### Dependencies
+```Maven POM
+<dependencies>
+ <dependency>
+  <groupId>javax</groupId>
+    <artifactId>javaee-web-api</artifactId>
+      <version>7.0</version>
+      <scope>provided</scope>
+ </dependency>
+<dependency>
+  <groupId>com.google.code.gson</groupId>
+   <artifactId>gson</artifactId>
+   <version>2.9.0</version>
+  </dependency>
+ <dependency>
+   <groupId>javax.servlet</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.2</version>
+ </dependency>
+</dependencies>
+
+```
 
 
 
