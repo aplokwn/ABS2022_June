@@ -23,7 +23,7 @@
 
   <p align="center">
     <br />
-    <a href="https://sampleads.herokuapp.com"><strong>Live Demo @ heroku »</strong></a>
+    <a href="https://sampleads.herokuapp.com"><strong>Live Demo @ heroku »</strong></a><br/>
     <a href="https://github.com/aplokwn/ABS2022_June"><strong>Explore the docs »</strong></a>
     <br />
     <br />
@@ -136,8 +136,9 @@ Bike Live Feed Page (bike inventory) is designd to access bike inventory through
 
 1. Simply download the web application on Github > Code > Dowload ZIP.
 2. Import the project to your perfered IDE.
-     
-   
+3. If you are using VScode or IntelliJ IDEA as your IDE, you need to setup a tomcat server for running this application on the local host.
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
