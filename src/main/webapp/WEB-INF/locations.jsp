@@ -1,5 +1,5 @@
 <%--
-  Created by IntelliJ IDEA.
+  locations.jsp, main page after landing page
   Date: 5/20/2021
   Time: 8:58 PM
   version: 202208
