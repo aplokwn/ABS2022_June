@@ -1,5 +1,5 @@
 <%--
-  Created by IntelliJ IDEA.
+  Header,nav bar of the website. Google function added here
   User: 794980
   Date: 5/21/2021
   Time: 2:14 PM
