@@ -1,5 +1,5 @@
 <%-- 
-    Document   : index.jsp, landing page ofthe website
+    Document   : index.jsp, landing page of the website
     Created on : Feb. 10, 2022, 1:07:18 p.m.
     Author     : Administrator
     version: 202206
