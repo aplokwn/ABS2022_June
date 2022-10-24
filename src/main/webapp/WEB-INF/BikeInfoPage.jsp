@@ -1,5 +1,5 @@
 <%-- 
-    Document   : BikeInfoPage
+    Document   : BikeInfoPage, showing Bike in-stock
     Created on : Feb 3, 2022, 4:07:58 PM
     @author april wan
 --%>
@@ -15,6 +15,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    
+    <!-- Bootstrap CSS -->
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
