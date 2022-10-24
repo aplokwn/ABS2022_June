@@ -1,4 +1,10 @@
 
+/*
+ * VolunteerGoogleForm.java
+ * Control the page redirection on the nav bar
+ * Landing to the VolunteerGoogleForm.jsp
+ */
+
 package servlet;
 
 import java.io.IOException;
