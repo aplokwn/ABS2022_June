@@ -10,12 +10,12 @@ package model;
 
 public class Bike {
     
-    
+    // Bike ID also on the webpage, need to be change, not a PK
     private Integer bikeId;
     private String photoPath;
     private String maker;
     private String model;
-    private String size;
+    private String size; // may remove
     private double price;
     
     public Bike(){

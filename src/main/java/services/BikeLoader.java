@@ -30,7 +30,7 @@ public class BikeLoader {
         JsonObject jsonObject = new JsonObject();
         jsonObject.get("bike");
 
-        // If the file is empty, there is no bike instock, 
+        // If the file is empty, there is no bike in stock,
         //return a empty list for servlet to handle page control
         if (jsonObject.isJsonNull()) {
             List<Bike> bikeList = Arrays.asList();

@@ -135,7 +135,7 @@ public class BikeInfoServlet extends HttpServlet {
             if (bikeList.isEmpty()) {
                 emptyjson = "true";
                 session.setAttribute("emptyjson", emptyjson);
-                session.setAttribute("bikemessage", "Not Bike instock. Please come back during the event.");
+                session.setAttribute("bikemessage", "No Bikes in stock. Please come back during the event.");
                 
             } 
             //If the json file is not empty

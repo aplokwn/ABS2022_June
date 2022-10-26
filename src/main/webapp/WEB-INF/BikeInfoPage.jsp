@@ -123,7 +123,7 @@
                     </c:when>
 
                     <c:otherwise>
-                        <h1>No Bike in-stock</h1>
+                        <h1>No Bikes in-stock</h1>
                         <p>${bikemessage}</p>
 
                     </c:otherwise>
