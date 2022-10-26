@@ -23,7 +23,7 @@
 
   <p align="center">
     <br />
-    <a href="https://sampleads.herokuapp.com"><strong>Live Demo @ heroku »</strong></a><br/>
+    <a href="https://sampleabs.herokuapp.com"><strong>Live Demo @ heroku »</strong></a><br/>
     <a href="https://github.com/aplokwn/ABS2022_June"><strong>Explore the docs »</strong></a>
     <br />
     <br />

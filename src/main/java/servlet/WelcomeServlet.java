@@ -1,8 +1,11 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * WelcomeServlet.java
+ * Control the page location information
+ * Landing to the locations.jsp
+ * Contain location and event information
+ *
  */
+
 package servlet;
 
 import java.io.IOException;
@@ -34,8 +37,7 @@ public class WelcomeServlet extends HttpServlet {
         
         String checkId = request.getParameter("cityId");
         
-        //request.getRequestDispatcher("WEB-INF/index.jsp").forward(request, response);
-        
+       
         if(checkId==null){
             
             request.getRequestDispatcher("WEB-INF/index.jsp").forward(request, response);
@@ -101,19 +103,7 @@ public class WelcomeServlet extends HttpServlet {
                 
         
         
-        
-        
-        
-       
-        
-        
-        
-        
-        
-        
-        
-        
-        
+    
         
     }
 

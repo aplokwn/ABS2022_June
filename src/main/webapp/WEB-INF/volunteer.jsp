@@ -1,5 +1,5 @@
 <%-- 
-    Document   : volunteer.jsp
+    Document   : volunteer.jsp, volunteer form summary page
     Created on : Feb 17, 2022, 1:30:54 PM
     Author     : 845593
     version: 202208

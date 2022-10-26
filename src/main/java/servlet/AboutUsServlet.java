@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * AboutUsServlet.java
+ * Control the page redirection on the nav bar
+ * 
  */
 package servlet;
 
@@ -13,14 +13,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- *
- * @author 845593
+ * Handles the HTTP <code>GET</code> method.
+ * 
+ * @param request servlet request
+ * @param response servlet response
+ * @throws ServletException if a servlet-specific error occurs
+ * @throws IOException if an I/O error occurs
  */
 public class AboutUsServlet extends HttpServlet {
 
-   
-   
-     
+    
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {

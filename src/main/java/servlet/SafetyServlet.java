@@ -1,8 +1,9 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * SafetyServlet.java.java
+ * Control the page redirection on the nav bar
+ * Landing to the SafetyPage.jsp
  */
+
 package servlet;
 
 import java.io.IOException;

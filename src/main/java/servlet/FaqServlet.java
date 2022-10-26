@@ -1,7 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * FaqServlet.java
+ * Control the page redirection on the nav bar
+ * Landing to the FAQpage.jsp
+ * 
  */
 package servlet;
 
@@ -17,8 +18,6 @@ import javax.servlet.http.HttpServletResponse;
  * @author 845593
  */
 public class FaqServlet extends HttpServlet {
-
-    
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
